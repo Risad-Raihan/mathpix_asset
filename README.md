@@ -1,3 +1,5 @@
+
+### run fullbook_math_9_code.py
 ```
 Convert an entire PDF to Markdown with Mathpix Markdown (MMD) via
 Mathpix's official Python SDK (mpxpy).
@@ -7,4 +9,5 @@ by Mathpix)
 • Downloads any extracted diagram/table images into a folder named
 `<pdf-stem>_assets/`
 • Requires: pip install mpxpy >= 0.4.0
+
 ```
