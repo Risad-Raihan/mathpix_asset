@@ -10,7 +10,7 @@ class GeminiBoundaryDetector:
         self.content = self.load_file()
         
         # Configure Gemini
-        genai.configure(api_key="AIzaSyCCjKJxOQjweJRirVUcoZqb2t8_qEIWOFQ") 
+        genai.configure(api_key="gemini api") 
         self.model = genai.GenerativeModel('gemini-2.5-flash')
         
         # Configure generation settings for better timeout handling
@@ -172,7 +172,7 @@ Content:
 def main():
     # Configuration
     chapter_file = "/home/risad/projects/mathpix_test/splitted_book/testv1/chapter_01.md"
-    api_key = "AIzaSyCCjKJxOQjweJRirVUcoZqb2t8_qEIWOFQ"  # Replace with your actual API key
+    api_key = "gemini api"  # Replace with your actual API key
     
     # Check if file exists
     if not os.path.exists(chapter_file):
